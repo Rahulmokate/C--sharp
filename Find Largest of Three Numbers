@@ -1,0 +1,15 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+        Console.Write("Enter three numbers: ");
+        int a = int.Parse(Console.ReadLine());
+        int b = int.Parse(Console.ReadLine());
+        int c = int.Parse(Console.ReadLine());
+
+        int largest = (a > b && a > c) ? a : (b > c ? b : c);
+        Console.WriteLine("Largest = " + largest);
+    }
+}
