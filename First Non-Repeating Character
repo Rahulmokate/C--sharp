@@ -1,0 +1,6 @@
+string str = "swiss";
+foreach (char c in str)
+    if (str.IndexOf(c) == str.LastIndexOf(c)) {
+        Console.WriteLine(c);
+        break;
+    }
