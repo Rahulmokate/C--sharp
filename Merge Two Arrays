@@ -1,0 +1,3 @@
+int[] a = {1,2}, b = {3,4};
+int[] c = a.Concat(b).ToArray();
+foreach (int i in c) Console.Write(i+" ");
