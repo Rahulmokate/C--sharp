@@ -1,0 +1,2 @@
+string str = "hello";
+Console.WriteLine(str.ToUpper());
