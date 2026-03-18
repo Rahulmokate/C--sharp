@@ -1,0 +1,3 @@
+string str = "hello world";
+int count = str.Split(' ').Length;
+Console.WriteLine(count);
