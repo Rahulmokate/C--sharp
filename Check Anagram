@@ -1,0 +1,6 @@
+string a = "listen", b = "silent";
+char[] arr1 = a.ToCharArray();
+char[] arr2 = b.ToCharArray();
+Array.Sort(arr1);
+Array.Sort(arr2);
+Console.WriteLine(new string(arr1) == new string(arr2) ? "Anagram" : "Not");
