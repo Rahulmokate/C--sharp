@@ -1,0 +1,4 @@
+string str = "hello";
+int len = 0;
+foreach (char c in str) len++;
+Console.WriteLine(len);
