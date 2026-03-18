@@ -1,0 +1,7 @@
+int num = 1234, even = 0, odd = 0;
+while (num > 0) {
+    int d = num % 10;
+    if (d % 2 == 0) even++; else odd++;
+    num /= 10;
+}
+Console.WriteLine($"Even={even}, Odd={odd}");
